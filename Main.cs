@@ -9,7 +9,7 @@ class Program
 
   public static void StartCalc()
   {
-    Calculator calculator = new Calculator();
+    /*Calculator calculator = new Calculator();
     Equation a = new Equation(5, "a");
     Equation b = new Equation(Operation.add, "b", a, 30.1f);
     Equation c = new Equation(Operation.subtract, "c", b, 30.1f);
@@ -25,8 +25,10 @@ class Program
       print("Result: " + calculator.Evaluate());
       Console.WriteLine("------------");
       Console.Write("\nEquation: ");
-    }
+    }*/
   }
 
   public static void print(string input) => Console.WriteLine(input);
+  public static void print2(int i) => Console.WriteLine(i);
+  public static void print3(char input) => Console.WriteLine(input);
 }
