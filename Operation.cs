@@ -56,9 +56,8 @@ public class Operation {
     this.isFunction = isFunction;
     this.solveFunc = func;
   }
-
-  public float Solve(params Number[] args) => solveFunc(args);
   public float SolveArr(Number[] args) => solveFunc(args);
 
   public static implicit operator string(Operation op) => op.identifier;
+  //Added line for checking if merge comments exist
 }
