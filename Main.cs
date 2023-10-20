@@ -5,6 +5,7 @@ class Program
   public static void Main(string[] args)
   {
     Console.WriteLine("Welcome to my calculator!\n");
+    Test.Run();
     StartCalc();
   } 
 
