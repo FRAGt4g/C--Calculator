@@ -11,7 +11,6 @@ class Program
   public static void StartCalc()
   {
     Calculator calculator = new Calculator();
-    Console.WriteLine("Test calculation: ");
     Equation a = new Equation(5, "a");
     Equation b = new Equation(Operation.add, "b", a, 30.1f);
     Equation c = new Equation(Operation.subtract, "c", b, 30.1f);
