@@ -61,5 +61,4 @@ public class Operation {
   public float SolveArr(Number[] args) => solveFunc(args);
 
   public static implicit operator string(Operation op) => op.identifier;
-  public static implicit operator int(Operation op) => op.importance;
 }

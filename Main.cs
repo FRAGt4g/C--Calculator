@@ -9,16 +9,7 @@ class Program
   } 
 
   public static void StartCalc()
-  {
-    Calculator calculator = new Calculator();
-    Equation a = new Equation(5, "a");
-    Equation b = new Equation(Operation.add, "b", a, 30.1f);
-    Equation c = new Equation(Operation.subtract, "c", b, 30.1f);
-    Equation d = new Equation(Operation.factorial, "d", 5);
-    Equation e = new Equation(Operation.average, "e", c, d, 12);
-    Equation f = new Equation(Operation.sumorial, "f", e);
-    Console.WriteLine(f.id + ": " + f.SolveAll() + "\n============================\n");
-    
+  { 
     Console.Write("\nEquation:");
     
     while (calculator.GetInput() != "exit")
@@ -30,4 +21,6 @@ class Program
   }
 
   public static void print(string input) => Console.WriteLine(input);
+  public static void print2(Operation input) => Console.WriteLine(input);
+  public static void print3() => Console.WriteLine("This is a void check");
 }
