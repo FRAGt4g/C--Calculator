@@ -4,8 +4,8 @@ class Program
 {
   public static void Main(string[] args)
   {
-    Console.WriteLine("Welcome to my calculator!\n");
     StartCalc();
+    Operation x = new Operation();
   } 
 
   public static void StartCalc()
